@@ -15,6 +15,18 @@ Easy switch data provider from drawer menu.
 
 ### CRUD + SYNC
 
+![ss1](https://user-images.githubusercontent.com/57342180/126033211-3180c702-faed-43dd-97da-1b61de864348.png)
+
+Online Database ✔
+
+![ss2](https://user-images.githubusercontent.com/57342180/126033219-949ac214-48f3-40b1-b8e3-f946399c8025.png)
+
+3 Data Provider ✔
+
+![ss3](https://user-images.githubusercontent.com/57342180/126033220-32f71887-4087-4754-adce-1f0d1a75318d.png)
+
+CRUD ✔
+
 ## State Management
 This project using flutter bloc version 7.x for managing state and folder structure.
 [bloc | Dart Package (pub.dev)](https://pub.dev/packages/bloc)
@@ -30,7 +42,7 @@ Internet connection checked with [internet_connection_checker | Dart Package (pu
 
 ## Backend
 Backend using Laravel version 8.x and mysql Database. Using Laravel Sanctum for tokenization.
-
+For backend implementation check my other repo [Todo Laravel Repo](https://github.com/billymosis/TodoLaravel).
 ## Synchronization
 
 This application is offline first, so what happen to the client will reflect to the database. I make the client application as dumb as possible. Synchronization is using for backup and get the newest data from last Synchronization. Anything updated or deleted in client will replace existing data on the database. There are 4 Table in client database.
