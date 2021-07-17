@@ -7,7 +7,7 @@ Using three Data Provider and one Repository:
 
 - Offline Database with SQLITE / SQFLITE.
 
-- Online Database with API, Laravel + MySQL backend.
+- Online Database with REST API, Laravel + MySQL backend.
 
 - Offline Fake Memory.
 
